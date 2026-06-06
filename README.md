@@ -1,2 +1,2 @@
 # Web Dev Course
-Source code for Wed Development Course
+Source code for Web Development 
