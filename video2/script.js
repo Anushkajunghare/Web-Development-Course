@@ -1,0 +1,1 @@
+alert("Welcome to Anushka's Course First Website"); 
