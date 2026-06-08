@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid black;
+            display: inline-block;
+            padding: 45px;
+            margin: 34px;
+        }
+
+        .box1 {
+            /* display: none; */
+            visibility: hidden; 
+        }
+    </style>
+</head>
+
+<body>
+     <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/display -->
+    <div class="box box1">
+        I am a box
+    </div>
+    <div class="box">also a nice box</div>
+    <span>I am a good</span>
+    <span>girl</span>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display Inline Example</title>
+  <style>
+    .inline-demo {
+      display: inline;
+      background-color: lightblue;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Display Inline Example</h2>
+  <p>
+    This is a 
+    <span class="inline-demo">CSS Inline</span> 
+    example inside a paragraph.
+  </p>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display Block Example</title>
+  <style>
+    .block-demo {
+      display: block;
+      background-color: lightgreen;
+      width: 200px;
+      height: 50px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Display Block Example</h2>
+  <p>This is a paragraph before the block.</p>
+  <div class="block-demo">I am a block element.</div>
+  <p>This is a paragraph after the block.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display Inline-Block Example</title>
+  <style>
+    .inline-block-demo {
+      display: inline-block;
+      background-color: orange;
+      width: 100px;
+      height: 50px;
+      margin: 5px;
+      text-align: center;
+      line-height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Display Inline-Block Example</h2>
+  <div class="inline-block-demo">Box 1</div>
+  <div class="inline-block-demo">Box 2</div>
+  <div class="inline-block-demo">Box 3</div>
+</body>
+</html>
